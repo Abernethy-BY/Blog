@@ -1,11 +1,15 @@
+<!--
+ * @Author: Abernethy-BY by15242952083@outlook.com
+ * @Date: 2023-02-10 17:11:08
+ * @LastEditors: Abernethy-BY by15242952083@outlook.com
+ * @LastEditTime: 2023-02-10 17:39:15
+ * @FilePath: \Blog\app.vue
+ * @Description:
+ * Copyright (c) 2023 by Abernethy-BY email: by15242952083@outlook.com, All Rights Reserved.
+-->
 <script setup lang="ts">
 useHead({
-  title: 'Vitesse Nuxt 3',
-  link: [
-    {
-      rel: 'icon', type: 'image/png', href: '/nuxt.png',
-    },
-  ],
+  title: 'BY-Blog',
 })
 </script>
 
@@ -16,14 +20,4 @@ useHead({
 </template>
 
 <style>
-html, body , #__nuxt{
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
-html.dark {
-  background: #222;
-  color: white;
-}
 </style>
