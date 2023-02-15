@@ -2,7 +2,7 @@
  * @Author: Abernethy-BY by15242952083@outlook.com
  * @Date: 2023-02-10 17:11:08
  * @LastEditors: Abernethy-BY by15242952083@outlook.com
- * @LastEditTime: 2023-02-10 18:43:55
+ * @LastEditTime: 2023-02-15 22:08:36
  * @FilePath: \Blog\pages\index.vue
  * @Description:
  * Copyright (c) 2023 by Abernethy-BY email: by15242952083@outlook.com, All Rights Reserved.
@@ -16,6 +16,10 @@ const getData = async () => {
 }
 // const { data } = await useAsyncData('count', () => $fetch('/api/count'))
 
+const getContect = async () => {
+  const temp = await $fetch('/api/connect')
+  console.info(temp)
+}
 definePageMeta({
   layout: 'default',
 })
@@ -27,6 +31,9 @@ definePageMeta({
       {{ data }}
     </span>
     <el-button type="primary" @click="getData">
+      Primary
+    </el-button>
+    <el-button type="primary" @click="getContect">
       Primary
     </el-button>
   </div>
