@@ -2,7 +2,7 @@
  * @Author: Abernethy-BY by15242952083@outlook.com
  * @Date: 2023-02-10 17:11:08
  * @LastEditors: Abernethy-BY by15242952083@outlook.com
- * @LastEditTime: 2023-02-16 15:20:12
+ * @LastEditTime: 2023-02-10 18:43:55
  * @FilePath: \Blog\pages\index.vue
  * @Description:
  * Copyright (c) 2023 by Abernethy-BY email: by15242952083@outlook.com, All Rights Reserved.
@@ -27,6 +27,7 @@ definePageMeta({
 
 <template>
   <div w-100px>
+    主页
     <span>
       {{ data }}
     </span>
