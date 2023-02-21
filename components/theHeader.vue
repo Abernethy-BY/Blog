@@ -1,18 +1,12 @@
 <!--
  * @Author: Abernethy-BY by15242952083@outlook.com
- * @Date: 2023-02-10 17:11:08
+ * @Date: 2023-02-21 20:36:29
  * @LastEditors: Abernethy-BY by15242952083@outlook.com
- * @LastEditTime: 2023-02-21 20:45:50
- * @FilePath: \Blog\layouts\default.vue
+ * @LastEditTime: 2023-02-21 20:45:16
+ * @FilePath: \Blog\components\theHeader.vue
  * @Description:
  * Copyright (c) 2023 by Abernethy-BY email: by15242952083@outlook.com, All Rights Reserved.
 -->
 <template>
-  <div w-full h-full>
-    <the-header />
-    <div>
-      <slot />
-    </div>
-    <slot />
-  </div>
+  <div class="w-full h-50px bg-gradient-to-r from-purple-400 via-pink-500 to-red-500" />
 </template>
