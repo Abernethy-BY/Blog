@@ -8,13 +8,14 @@
  * Copyright (c) 2023 by ${git_name} email: ${git_email}, All Rights Reserved.
 -->
 <script lang="ts" setup>
-import bg from '/image/UFO.jpg'
+// import bg from '/image/UFO.jpg'
 </script>
 
 <template>
   <div class="login-box" fr-c ca-c h-100 w-100 po-r>
     <slot />
-    <el-image class="login-background" :src="bg" fit="cover" />
+    <!-- <el-image class="login-background" :src="bg" fit="cover" /> -->
+    <nuxt-img src="/image/UFO.jpg" sizes="sm:100vw md:50vw lg:400px" />
   </div>
 </template>
 
