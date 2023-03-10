@@ -3,5 +3,5 @@ definePageMeta({ layout: 'default' })
 </script>
 
 <template>
-  <div>{{ useUserStore().token }}</div>
+  <div>demo</div>
 </template>

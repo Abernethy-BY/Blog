@@ -1,8 +1,8 @@
 <!--
  * @Author: BY by15242952083@outlook.com
  * @Date: 2023-02-12 18:19:39
- * @LastEditors: BY by15242952083@outlook.com
- * @LastEditTime: 2023-02-12 18:37:56
+ * @LastEditors: Abernethy-BY by15242952083@outlook.com
+ * @LastEditTime: 2023-03-10 19:44:11
  * @FilePath: \Blog\layouts\login.vue
  * @Description:
  * Copyright (c) 2023 by ${git_name} email: ${git_email}, All Rights Reserved.
@@ -12,10 +12,10 @@
 </script>
 
 <template>
-  <div class="login-box" fr-c ca-c h-100 w-100 po-r>
+  <div class="login-box bg-[url(/image/UFO.jpg)]" fr-c ca-c h-full w-full po-r>
     <slot />
     <!-- <el-image class="login-background" :src="bg" fit="cover" /> -->
-    <nuxt-img src="/image/UFO.jpg" sizes="sm:100vw md:50vw lg:400px" />
+    <!-- <nuxt-img src="/image/UFO.jpg" sizes="sm:100vw md:50vw lg:400px" /> -->
   </div>
 </template>
 
